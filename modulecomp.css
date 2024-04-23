@@ -1,0 +1,158 @@
+header {
+	background-color: #4063D7;
+	color: #33B76D;
+	font-family: Georgia, "Times New Roman", serif;
+	background-image: url(Flames.jpg);
+	background-position: right;
+
+}
+
+main {
+	margin-right: 160px;
+	margin-left: 190px;
+	padding-top: 1px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	display: block;
+	overflow: auto;
+}
+
+body {
+	background-color: #4DBEE8;
+	color: #300e0e;
+	font-family: Arial, Tahoma, sans-serif;
+}
+
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#homehero {
+	background-image: url(Computer-background.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	height: 300px;
+	margin-left: 190px;
+
+
+}
+
+* {
+	box-sizing: border-box;
+}
+
+#wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	background-color: #4DBEE8;
+	background-image: linear-gradient(to bottom, #a163cd, #4DBEE8);
+	min-width: 960px;
+	min-height: 2048px;
+
+}
+
+nav {
+	font-weight: bold;
+	padding: 1.5em;
+	font-size: 120%;
+	float: left;
+	width: 160px;
+}
+
+nav ul {
+	margin: 0%;
+	padding-left: 0%;
+	font-size: 1.2em;
+	list-style-type: none;
+}
+
+nav a {
+	text-decoration: none;
+	display: block;
+	
+}
+
+nav a:link {
+	color: #043efd;
+	transition-property: all;
+	transition-duration: 2s;
+	transition: all;
+}
+
+nav a:hover {
+	color: aliceblue;
+
+
+}
+
+nav a:visited {
+	color: #0b4205;
+}
+li{
+	transition: background-color 2s linear;
+	background-color: darkturquoise;
+}
+li a:hover{
+	background-color: aliceblue;
+	transition-duration: 2s;
+	color: #f08522;
+}
+
+footer {
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 120%;
+	font-weight: bold;
+	text-align: center;
+	padding: 2em;
+	margin-left: 190px;
+}
+
+table {
+	align-content: center;
+	border: 3px solid #ced9ffe7;
+}
+
+td,
+tr,
+th {
+	padding: 0.5em;
+	border: 3px solid #ced9ffe7;
+}
+
+
+tr:nth-of-type(odd) {
+	background-color: #60caff;
+}
+
+tr:nth-of-type(even) {
+	background-color: #4ddd78;
+}
+
+form {
+	background-color: rgb(104, 198, 211);
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+label {
+	float: left;
+	display: block;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+
+input {
+	display: block;
+	margin-bottom: 20px;
+}
+
+input[type="submit"] {
+	margin-left: 140px;
+}
+
+textarea {
+	display: block;
+	margin-bottom: 10px;
+}
