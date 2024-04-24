@@ -2,7 +2,7 @@ header {
 	background-color: #4063D7;
 	color: #33B76D;
 	font-family: Georgia, "Times New Roman", serif;
-	background-image: url(Flames.jpg);
+	background-image: url(flames.jpg);
 	background-position: right;
 
 }
@@ -30,7 +30,7 @@ h1 {
 }
 
 #homehero {
-	background-image: url(Computer-background.jpg);
+	background-image: url(computer-background.jpg);
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	height: 300px;
